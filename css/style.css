@@ -201,6 +201,9 @@ p {
 .description-section {
   font-family: "Circular",Arial,sans-serif; }
 
+.shirt {
+  width: 600px; }
+
 .section strong {
   font-weight: bold; }
 
@@ -369,6 +372,9 @@ p {
     border: 1px solid #D8D8D8; }
     .box-other-site .icon-social:hover {
       color: #F17273; }
+
+.box-other-site {
+  font-family: "Circular",Arial,sans-serif; }
 
 .link-blog {
   font-size: 22px;
