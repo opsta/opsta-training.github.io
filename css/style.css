@@ -61,6 +61,9 @@ p {
 .section-main {
   margin-top: 180px; }
 
+.section {
+  padding-bottom: 30px; }
+
 .title {
   font-family: "Prompt",Arial,sans-serif;
   margin: 0; }
@@ -196,11 +199,17 @@ p {
   padding-bottom: 50px; }
 
 .description-section {
-  font-family: "Circular",Arial,sans-serif;
-  padding-bottom: 50px; }
+  font-family: "Circular",Arial,sans-serif; }
 
-.description-section strong {
+.section strong {
   font-weight: bold; }
+
+.section-img {
+  margin: 30px 0;
+  text-align: center; }
+
+.section p {
+  font-family: "Circular",Arial,sans-serif; }
 
 .description-section p {
   margin-bottom: 10px; }
@@ -320,7 +329,7 @@ p {
 .contact-us {
   border-top: 1px solid #D8D8D8;
   padding-top: 30px;
-  padding: 174px 0;
+  padding: 50px 0;
   color: #36404C; }
   .contact-us .title {
     margin-bottom: 15px; }
