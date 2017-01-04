@@ -113,6 +113,16 @@ p {
     padding: 0 20px;
     width: 50%; } }
 
+@media only screen and (min-width: 48em) {
+  .col-left {
+    float: left;
+    padding: 0 20px;
+    width: 30%; } }
+@media only screen and (min-width: 48em) {
+  .col-right {
+    float: left;
+    padding: 0 20px;
+    width: 70%; } }
 /**
   1. Header
   2. Intro Company
@@ -158,6 +168,13 @@ p {
     color: #36404C;
     font-weight: 400; }
 
+.nav-link::before {
+  content: "";
+  display: block;
+  height: 150px;
+  margin: -150px 0 0;
+}
+
 .intro {
   font-family: "Circular",Arial,sans-serif; }
 
@@ -200,9 +217,6 @@ p {
 
 .description-section {
   font-family: "Circular",Arial,sans-serif; }
-
-.shirt {
-  width: 600px; }
 
 .section strong {
   font-weight: bold; }
@@ -248,19 +262,19 @@ p {
 
 .founder-opsta {
   overflow: hidden;
-  padding-bottom: 110px; }
+  padding: 20px; }
 
 .founder {
   float: left;
-  margin-right: 39.999px;
+  margin: 0 0 20px 39.999px;
   position: relative; }
   .founder > img {
     position: relative;
     z-index: 10; }
   .founder:after {
     background-color: #F17273;
-    width: 195px;
-    height: 195px;
+    width: 70%;
+    height: 70%;
     position: absolute;
     content: '';
     bottom: -10px;
@@ -273,9 +287,8 @@ p {
   margin-top: -10px;
   margin-bottom: 0; }
 
-.bio ul {
-  margin: 0 0 0 310px;
-}
+.bio {
+  float: left; }
 
 .expert {
   font-family: "Prompt",Arial,sans-serif;
