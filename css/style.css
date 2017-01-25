@@ -249,6 +249,7 @@ p {
 .description-section {
     font-family: "Circular", Arial, sans-serif;
 }
+.intro strong,
 .section strong {
     font-weight: bold;
 }
@@ -295,6 +296,7 @@ p {
 }
 .photo-event {
     border-bottom: 8px solid #F17273;
+    margin-bottom: 10px
 }
 .founder-opsta {
     overflow: hidden;
