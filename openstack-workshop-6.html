@@ -1,0 +1,297 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Opsta | We build scale | OpenStack Administration Workshop</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1.0,minimum-scale=1.0,maximum-scale=10.0,minimal-ui"/>
+    <link href="./css/style.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Prompt:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-130152-28', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+</head>
+<body>
+  <header class="header">
+    <nav role="navigation" class="container">
+      <div id="logo"><a href="#"><img src="img/opsta-logo-we-build-scale.png" alt="Opsta (Thailand) Co.,Ltd." /></a></div>
+      <ul>
+        <li><a href="#description">รายละเอียดคอร์ส</a></li>
+        <li><a href="#testimonial">ภาพบรรยากาศ</a></li>
+        <li><a href="#apply">สมัครอบรม</a></li>
+        <li><a href="#transfer">โอนเงิน</a></li>
+        <li><a href="#speaker">วิทยากร</a></li>
+        <li><a href="#outline">Course Outline</a></li>
+        <li><a href="#contact">ติดต่อ</a></li>
+        <li><a href="https://blog.opsta.io">Blog</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="section-main container">
+    <div class="service-section">
+      <h2 class="title-section"><b>OpenStack Administration Workshop #6</b></h2>
+      <div class="intro">
+        <h3>
+          Opsta OpenStack Administration Workshop รุ่นที่ 6 เปิดให้ลงทะเบียนแล้ว!
+          หลังจากรุ่นที่แล้วมีคนที่สนใจเข้ามาสมัครจนล้น และยังมีผู้ที่สนใจยังตามเข้ามาสอบถามอีกเรื่อยๆ ว่าจะ
+          เปิดรอบต่อไปเมื่อไหร่ เพราะฉะนั้นรีบๆ สมัครเข้ากันมาก่อนที่จะเต็มนะครับ
+        </h3>
+        <p>
+          คงปฏิเสธไม่ได้แล้วกับ OpenStack ระบบคลาวด์ที่ร้อนแรงที่สุดที่ทุกองค์กรจะต้องเรียนรู้ในปีนี้
+          (<a href="https://www.techtalkthai.com/5-reasons-enterprises-and-system-engineers-should-start-trying-openstack/" target="_blank">
+          อ่าน 5 เหตุผลที่เหล่าองค์กรและผู้ดูแลระบบ ควรเริ่มต้นใช้ OpenStack สร้าง private cloud ภายในองค์กร</a>)
+          มาเริ่มเรียนรู้การสร้างและใช้งาน private cloud ด้วย OpenStack เพื่อประยุกต์ใช้กับองค์กรของคุณ
+          โดยวิทยากร "เดียร์" จิรายุส นิ่มแสง ผู้ก่อตั้งบริษัท Opsta คนไทยคนแรกที่สอบผ่าน
+          <a href="https://www.openstack.org/coa" target="_blank">Certified OpenStack Administrator (COA)</a>
+          รวมถึงมีประสบการณ์การ implement OpenStack ในระดับ production จริงให้กับองค์กร
+          ต่างๆ มายมายทั้งในและต่างประเทศ และ<a href="https://www.openstack.org/software/ocata/" target="_blank">
+          ยังได้รับชื่อให้เป็นหนึ่งในผู้พัฒนา OpenStack ในฐานะ contributor อีกด้วย</a>
+        </p>
+        <p>
+          ในคอร์สนี้ ผู้เข้าร่วมอบรมจะได้ทำการเรียนรู้วิธีการสร้าง ดูแล และใช้งานระบบคลาวด์ด้วย
+          OpenStack จาก workshop ที่ถูกจัดเตรียมไว้ เพื่อเรียนรู้ในแต่ละส่วนประกอบของ OpenStack
+          ผ่านการถ่ายทอดจากประสบการณ์จริงอย่างโชกโชนของวิทยากร และหลังจากจบคอร์สสามารถนำความรู้ที่ได้
+          กลับไปทดลองใช้งานในองค์กรของคุณได้ทันที
+        </p>
+      </div>
+      <div class="grid">
+        <div class="col-6">
+          <figure class="photo-event"><img src="img/Photo-Event.png" alt="" /></figure>
+        </div>
+        <div class="col-6">
+          <figure class="photo-event"><img src="img/Photo-Event-Training.png" alt="" /></figure>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="description" class="container nav-link">
+    <div class="description-section section">
+      <h2 class="title-section"><b>รายละเอียดคอร์ส</b></h2>
+      <p>
+        <strong>วันอบรม:</strong><br/>
+        <strong>รอบที่ 6</strong> วันพฤหัสที่ 27 กรกฎาคม 2560<br/>
+      </p>
+      <p>
+        <strong>เวลา:</strong><br/>
+        9.30 - 17.30 น.
+      </p>
+      <p>
+        <strong>จำนวนผู้เข้าอบรม:</strong><br/>
+        รอบละ 25 ท่าน
+      </p>
+      <p>
+        <strong>สถานที่:</strong><br/>
+        Glowfish ชั้น 6 ตึกอโศกทาวเวอร์ ถนนอโศก
+      </p>
+      <p>
+        <strong>การเดินทาง:</strong><br/>
+        - โดยรถส่วนบุคคล สามารถขับรถมาจอดที่อาคารได้ฟรีทั้งวัน<br/>
+        - โดยรถไฟฟ้าใต้ดิน ลงที่สถานีเพชรบุรีประตู 2 แล้วเดินมาทางอโศกมาประมาณ 200 เมตร<br/>
+        - โดยเรือ ลงที่สถานีสะพานอโศก แล้วเดินมาทางอโศกประมาณ 200 เมตร
+      </p>
+      <p>
+        <strong>แผนที่:</strong><br/>
+        <a href="https://goo.gl/maps/idMAdpLpJkH2" target="_blank">Google Maps</a><br/>
+        <a href="https://goo.gl/maps/8Gyd6WrFKFz" target="_blank">Google Street View</a>
+      </p>
+      <p>
+        <strong>ราคา:</strong><br/>
+        พิเศษ! จากราคาปกติ <del>7,900 บาท</del><br/>
+        แต่ถ้าโอนเงินก่อนวันที่ 21 กรกฎาคม 2560 (Early Bird)<br/>
+        <strong>ลดเหลือ 4,900 บาทเท่านั้น! (ราคายังไม่รวม VAT)</strong>
+      </p>
+      <p>
+        <strong>คอร์สนี้เหมาะสำหรับ:</strong><br/>
+        - IT Managers หรือ System Engineers ที่กำลังมองหา solution private cloud สำหรับองค์กร<br/>
+        - Developer หรือ DevOps ที่ต้องการศึกษาการทำ automation บนระบบ cloud<br/>
+        - บุคคลทั่วไปที่สนใจและต้องการศึกษา OpenStack ตั้งแต่ระดับเบื้องต้น
+      </p>
+      <p>
+        <strong>สิ่งที่ต้องเตรียมสำหรับผู้เข้าอบรม</strong><br/>
+        - มีความรู้พื้นฐาน Linux command line<br/>
+        - มีความรู้พื้นฐานทางด้าน Network เช่น TCP/IP, VLAN, Routing<br/>
+        - คอมพิวเตอร์ส่วนตัวที่ติดตั้ง Browser และ SSH Client เช่น Terminal หรือ Putty<br/>
+      </p>
+      <p>
+        <strong>สิ่งที่ผู้เข้าอบรมจะได้จากคอร์สนี้:</strong><br/>
+        - ได้รู้จัก เรียนรู้ และลองใช้งานตัวระบบพื้นฐานของ OpenStack อันได้แก่ Nova, Keystone, Neutron, Cinder, Glance, Swift และ Horizon<br/>
+        - เรียนรู้การใช้งาน OpenStack CLI และรู้จักกับ Heat เพื่อสร้างระบบแบบ automation<br/>
+        - อาหารว่างเช้า บ่าย และอาหารกลางวัน ตลอดวันการอบรม<br/>
+        - Certificate รับรองว่าผ่านการอบรม OpenStack Administration จากบริษัท Opsta<br/>
+        <figure class="shirt"><img src="img/certificate-resize.jpg" alt="Sample Certificate" /></figure>
+        - เสื้อที่ระลึกจากการอบรม<br/>
+        <figure class="shirt"><img src="img/shirt.png" alt="Shirt" /></figure>
+      </p>
+    </div>
+  </section>
+
+  <section id="testimonial" class="container nav-link">
+    <div class="gallery">
+      <h2 class="title-section"><b>ภาพและความรู้สึกจากผู้เข้าอบรม</b></h2>
+      <div class="grid">
+        <div class="col-6">
+          <figure class="photo-event"><img src="https://c1.staticflickr.com/1/765/32369905321_e295039bbd_z.jpg" alt="" /></figure>
+          <h3>"ได้เรียนรู้ท่าการทำ OpenStack ที่เป็น production จริงๆ และคิดว่าในไทยหาคนที่อธิบายเชิงลึกได้แบบนี้มีไม่กี่คน"</h3>
+        </div>
+        <div class="col-6">
+          <figure class="photo-event"><img src="https://c1.staticflickr.com/1/696/32369875601_12f0a65e1f_z.jpg" alt="" /></figure>
+          <h3>"เป็นคลาสที่คุ้มค่ามากครับ เพราะว่าถ้าไม่ได้คำแนะนำของพี่เดียร์ ผมเดินผิดทางแน่นอน"</h3>
+        </div>
+        <div class="col-6">
+          <figure class="photo-event"><img src="https://c1.staticflickr.com/1/309/31648008554_5163e5bb7b_z.jpg" alt="" /></figure>
+          <h3>"เนื้อหาแน่นมากครับ ได้เรียนรู้ตั้งแต่เริ่มต้นไปจนถึงการทำ automation แถมได้ทำเองจริงเลยอีกต่างหาก"</h3>
+        </div>
+        <div class="col-6">
+          <figure class="photo-event"><img src="https://c1.staticflickr.com/1/577/32450898426_25251da5ee_z.jpg" alt="" /></figure>
+          <h3>"หลังจากเรียนแล้วทำให้รู้ว่า เราจะมี OpenStacker อยู่สองประเภท ประเภทแรกคือบอกว่าใช้ Command-Line เร็วกว่า ประเภทที่สองคือบอกว่าใช้ GUI เร็วกว่า"</h3>
+        </div>
+      </div>
+      <p>&nbsp;</p>
+    </div>
+  </section>
+
+  <section id="apply" class="container nav-link">
+    <div class="about-company">
+      <h2 class="title-section"><b>สมัครอบรม</b></h2>
+      <p>
+        ลิงก์ตรงเข้าฟอร์มสมัครอบรมในกรณีที่ฟอร์มข้างล่างไม่ขึ้น<br/>
+        <a href="https://goo.gl/forms/zMhiqMmcAjvEoTxP2" target="_blank">https://goo.gl/forms/zMhiqMmcAjvEoTxP2</a>
+      </p>
+      <div class="founder-opsta">
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeQGf61EO7fFX1VPDqoSyOi3YO-24sw7AaxSMGjkH-U1SxJnQ/viewform?embedded=true" width="100%" height="700" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+      </div>
+    </div>
+  </section>
+
+  <section id="transfer" class="container nav-link">
+    <div class="transfer-section section">
+      <h2 class="title-section"><b>การโอนเงิน</b></h2>
+      <div>
+        <p>
+          หลังจากสมัครอบรมเรียบร้อยแล้ว กรุณาโอนเงินดังตามรายละเอียดบัญชีข้างล่างนี้
+        </p>
+        <p>
+          <strong>บจก.ออพซ์ตา (ประเทศไทย)</strong><br/>
+          ธนาคารกสิกรไทย สาขาเอสพละนาด รัชดาภิเษก ออมทรัพย์<br/>
+          เลขที่บัญชี 0191728998
+        </p>
+        <p>
+          หลังจากโอนเงินแล้ว กรุณาส่งรายละเอียดยืนยันการโอนเงินที่ลิงก์แบบฟอร์มข้างล่างนี้<br/>
+          <strong>แบบฟอร์มยืนยันการโอนเงิน:</strong> <a href="https://goo.gl/forms/nWeUHvGClUmarqXg1" target="_blank">https://goo.gl/forms/nWeUHvGClUmarqXg1</a>
+        </p>
+        <p>
+          ขอสงวนสิทธิ์ในการให้สิทธิ์กับผู้ที่โอนเงินก่อน ในกรณีที่จำนวนผู้เข้าอบรมเต็ม<br/>
+          การสมัครจะถือว่าเสร็จสมบูรณ์เมื่อได้รับอีเมลและโค้ดยืนยันที่นั่งจากผู้จัดอบรมครับ
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="speaker" class="container nav-link">
+    <div class="about-company">
+      <h2 class="title-section"><b>วิทยากร</b></h2>
+      <div class="founder-opsta">
+        <div class="grid">
+          <div class="col-left">
+            <figure class="founder"><img src="img/Avatar2.png" alt="Jirayut Nimsaeng" /></figure>
+          </div>
+          <div class="col-right">
+            <div class="bio">
+              <h3 class="expert">จิรายุส นิ่มแสง (เดียร์)</h3>
+              <ul>
+                <li>จบการศึกษาระดับปริญญาตรี จากคณะเทคโนโลยีสารสนเทศ สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง</li>
+                <li>เป็นผู้พัฒนาระบบ OpenStack ขนาดใหญ่ให้กับ Kaidee ที่จะต้องรับโหลดถึง 33 ล้านเพจวิวต่อวัน</li>
+                <li>มีประสบการณ์ในการ implement OpenStack ในระดับ production ให้กับองค์กรต่างๆ มากมายทั้งในและต่างประเทศ</li>
+                <li>เป็นคนไทยคนแรกที่สอบผ่าน Certified OpenStack Administrator (COA)</li>
+                <li>ได้รับชื่อให้เป็นหนึ่งใน contributor ที่คอยช่วยพัฒนา OpenStack ให้ดีขึ้น</li>
+                <li>เป็น speaker คอยเผยแพร่ความรู้ให้ชุมชนอยู่เสมอ</li>
+                <li>ปัจจุบันดำรงตำแหน่งเป็นผู้ก่อตั้งและ CEO บริษัท ออพซ์ตา (ประเทศไทย) จำกัด ซึ่งเป็นบริษัทที่เน้นด้านการรับ implement ระบบ private cloud ด้วย OpenStack ให้กับองค์กร</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="outline" class="container nav-link">
+    <div class="about-company">
+      <h2 class="title-section"><b>Course Outline</b></h2>
+      <div class="section">
+        <figure class="section-img"><img src="https://blog.opsta.io/assets/20170515/openstack-overview-diagram.png" alt="OpenStack Software Diagram" /></figure>
+        <p>
+          - แนะนำ OpenStack และโมดูลพื้นฐานต่างๆ<br/>
+          - พาทัวร์ทำแล็ปการใช้งานโมดูลต่างๆ ของ OpenStack อันได้แก่ Horizon, Keystone, Glance, Cinder, Neutron, Nova และ Swift โดยจะสอนควบคู่ไปกับทฤษฎี วิธีการดูแลระบบ การตั้งค่า การแก้ไขปัญหาเบื้องต้น และสิ่งที่ต้องรู้เมื่อใช้งานในระบบจริง<br/>
+          - เรียนรู้การใช้งาน OpenStack command line และรู้จักกับ Heat เพื่อสร้างระบบบน OpenStack แบบ automation<br/>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <div id="contact" class="contact-us nav-link">
+    <div class="container">
+      <div class="grid">
+        <div class="col-6">
+          <h2 class="title">ติดต่อสอบถาม</h2>
+          <div class="list-contact">
+            <p>
+              <strong>โทรศัพท์: </strong><a href="tel:+66892885182">คุณแพรว 0611234089</a><br/>
+              <strong>โทรศัพท์: </strong><a href="tel:+66860694042">คุณเดียร์ 0860694042</a>
+            </p>
+            <p>
+              <strong>อีเมล: </strong>
+              <a href="mailto:training@opsta.co.th?Subject=สอบถามข้อมูลการอบรมเพิ่มเติม" target="_top">training@opsta.co.th</a>
+            </p>
+            <p>
+              <strong>Line: </strong><a href="http://line.me/ti/p/%40nuc8538i" target="_blank">@opsta</a>
+            </p>
+            <p>
+              <strong>Facebook Messenger: </strong><a href="https://www.facebook.com/opstacloud/" target="_blank">@opstacloud</a>
+            </p>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="box-other-site">
+            <h2 class="title-box">Opsta (Thailand) Co.,Ltd.</h2>
+            <div class="social-network">
+              <p>
+                <b>บริษัท ออพซ์ตา (ประเทศไทย) จำกัด (สำนักงานใหญ่)</b><br/>
+                เลขประจำตัวผู้เสียภาษี 0105559166030<br/>
+                297/2 ซอยพหลโยธิน 50 แยก 11-15
+                แขวงคลองถนน เขตสายไหม
+                กรุงเทพมหานคร 10220
+              </p>
+              <p>
+                <a href="https://facebook.com/opstacloud" target="_blank" class="icon-social"><span class="fa fa-facebook-official"></span> opsta</a>
+                <a href="https://twitter.com/opstacloud" target="_blank" class="icon-social"><span class="fa fa-twitter-square"></span> opsta</a>
+                <a href="https://blog.opsta.io" target="_blank" class="icon-social"><span class="fa fa-external-link-square"></span> opsta blog</a>
+              </p>
+            </div>
+            <p>
+              We love open source
+            </p>
+            <p>
+              <a class="btn" href="https://github.com/opsta" target="_blank"><span class="fa fa-github"></span>Opsta on github</a>
+            </p>
+            <br>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer-content">
+    <div class="container">
+      <p class="copyright">© 2017 Opsta (Thailand) Co.,Ltd. | Address: 297/2 Phaholyothin Soi 50 11th-15th Junction Klongthanon Saimai Bangkok 10220</p>
+    </div>
+  </footer>
+</body>
+<html>
