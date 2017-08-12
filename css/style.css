@@ -80,7 +80,7 @@ p {
 }
 .title-section {
     font-family: "Prompt", Arial, sans-serif;
-    font-size: 48px;
+    font-size: 40px;
     border-left: 8px solid #F17273;
     position: relative;
     background-color: #fff;
@@ -258,7 +258,7 @@ p {
 }
 .section-img {
     margin: 30px 0;
-    text-align: center;
+    text-align: left;
 }
 .section p {
     font-family: "Circular", Arial, sans-serif;
