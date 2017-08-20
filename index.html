@@ -1,15 +1,176 @@
 <!DOCTYPE HTML>
 <html lang="en-US">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="1; url=openstack-workshop-7.html">
-    <script type="text/javascript">
-      window.location.href = "openstack-workshop-7.html"
+    <title>Opsta | OpenStack Expert | OpenStack Administration Workshop</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1.0,minimum-scale=1.0,maximum-scale=10.0,minimal-ui"/>
+    <link href="./css/style.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Prompt:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-130152-28', 'auto');
+      ga('send', 'pageview');
+
     </script>
-    <title>Page Redirection</title>
   </head>
   <body>
-    <!-- Note: don't tell people to `click` the link, just tell them that it is a link. -->
-    If you are not redirected automatically, follow this <a href='openstack-workshop-7.html'>OpenStack Administration Workshop #7</a>.
+    <header class="header">
+      <nav role="navigation" class="container">
+        <div id="logo"><a href="./"><img src="img/opsta-logo-we-build-scale.png" alt="Opsta (Thailand) Co.,Ltd." /></a></div>
+        <ul>
+          <li><a href="https://blog.opsta.io/" target="_blank">Blog</a></li>
+          <li><a href="https://www.facebook.com/opstacloud" target="_blank">ติดตามข่าวสาร</a></li>
+          <li><a href="#contact">ติดต่อ</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="section-main container">
+      <div class="service-section">
+        <h2 class="title-section"><b>คอร์สอบรม</b></h2>
+        <div class="intro">
+          <a href="openstack-workshop-7.html">
+            <figure class="poster">
+              <img src="img/poster-openstack-workshop-7.jpg" alt="Opsta OpenStack Administration Workshop #7 Poster">
+            </figure>
+          </a>
+        </div>
+        <div class="grid">
+          <div class="col-6">
+            <a href="ansible-workshop-1.html">
+              <figure class="photo-event"><img src="img/ansible-event.png" alt=""></figure>
+              <h3>Workshop การจัดการเซิร์ฟเวอร์พันเครื่องด้วย Ansible รุ่นที่ 1</h3>
+            </a>
+          </div>
+          <div class="col-6">
+            <div class="article-blog">
+              <ul>
+                <li>
+                  <a href="https://blog.opsta.io/openstack/2017/07/05/tip-coa-exam.html" target="_blank">
+                    <img class="thumb-blog" src="img/coa-jirayut.jpg" alt="">
+                    <h3 class="title-blog">สิ่งที่ควรรู้และการเตรียมตัวสอบ Certified OpenStack Administrator (COA)</h3>
+                    <span class="label-blog">Blog</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://blog.opsta.io/openstack-ansible/2017/05/15/install-osa-aio.html" target="_blank">
+                    <img class="thumb-blog" src="img/Openstack-blog.jpg" alt="">
+                    <h3 class="title-blog">ลองใช้งาน OpenStack ง่ายๆ เพียงชั่วโมงละ 5 บาท</h3>
+                    <span class="label-blog">Blog</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br>
+    <section class="container customers-review">
+      <h2 class="title-section"><b>ความรู้สึกจากผู้เข้าอบรม</b></h2>
+      <div class="grid">
+        <div class="col-3">
+          <div class="feedback">
+            <blockquote>
+              “ได้เรียนรู้ท่าการทำ OpenStack ที่เป็น production จริงๆ และคิดว่าในไทยหาคนที่อธิบายเชิงลึกได้แบบนี้มีไม่กี่คน”
+            </blockquote>
+            <img src="img/avatar-1.png" alt="">
+            <span class="customer-name">Full Name</span>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="feedback">
+            <blockquote>
+              “เป็นคลาสที่คุ้มค่ามากครับ เพราะว่าถ้าไม่ได้คำแนะนำของพี่เดียร์ ผมเดินผิดทางแน่นอน”
+            </blockquote>
+            <img src="img/avatar-2.png" alt="">
+            <span class="customer-name">Full Name</span>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="feedback">
+            <blockquote>
+              “เนื้อหาแน่นมากครับ ได้เรียนรู้ตั้งแต่เริ่มต้นไปจนถึงการทำ automation แถมได้ทำเองจริงเลยอีกต่างหาก”
+            </blockquote>
+            <img src="img/avatar-3.png" alt="">
+            <span class="customer-name">Full Name</span>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="feedback">
+            <blockquote>
+              “หลังจากเรียนแล้วทำให้รู้ว่า เราจะมี OpenStacker อยู่สองประเภท ประเภทแรกคือบอกว่าใช้ Command-Line เร็วกว่า ประเภทที่สองคือบอกว่าใช้ GUI เร็วกว่า”
+            </blockquote>
+            <img src="img/avatar-4.png" alt="">
+            <span class="customer-name">Full Name</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div id="contact" class="contact-us nav-link">
+      <div class="container">
+        <div class="grid">
+          <div class="col-6">
+            <h2 class="title">ติดต่อสอบถาม</h2>
+            <div class="list-contact">
+              <p>
+                <strong>โทรศัพท์: </strong><a href="tel:+66892885182">คุณแพรว 0611234089</a><br>
+                <strong>โทรศัพท์: </strong><a href="tel:+66860694042">คุณเดียร์ 0860694042</a>
+              </p>
+              <p>
+                <strong>อีเมล: </strong>
+                <a href="mailto:training@opsta.co.th?Subject=สอบถามข้อมูลการอบรมเพิ่มเติม" target="_top">training@opsta.co.th</a>
+              </p>
+              <p>
+                <strong>Line: </strong><a href="http://line.me/ti/p/%40nuc8538i" target="_blank">@opsta</a>
+              </p>
+              <p>
+                <strong>Facebook Messenger: </strong><a href="https://www.facebook.com/opstacloud/" target="_blank">@opstacloud</a>
+              </p>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="box-other-site">
+              <h2 class="title-box">Opsta (Thailand) Co.,Ltd.</h2>
+              <div class="social-network">
+                <p>
+                  <b>บริษัท ออพซ์ตา (ประเทศไทย) จำกัด (สำนักงานใหญ่)</b><br>
+                  เลขประจำตัวผู้เสียภาษี 0105559166030<br>
+                  297/2 ซอยพหลโยธิน 50 แยก 11-15
+                  แขวงคลองถนน เขตสายไหม
+                  กรุงเทพมหานคร 10220
+                </p>
+                <p>
+                  <a href="https://facebook.com/opstacloud" target="_blank" class="icon-social"><span class="fa fa-facebook-official"></span> opsta</a>
+                  <a href="https://twitter.com/opstacloud" target="_blank" class="icon-social"><span class="fa fa-twitter-square"></span> opsta</a>
+                  <a href="https://blog.opsta.io" target="_blank" class="icon-social"><span class="fa fa-external-link-square"></span> opsta blog</a>
+                </p>
+              </div>
+              <p>
+                We love open source
+              </p>
+              <p>
+                <a class="btn" href="https://github.com/opsta" target="_blank"><span class="fa fa-github"></span>Opsta on github</a>
+              </p>
+              <br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer-content">
+      <div class="container">
+        <p class="copyright">© 2017 Opsta (Thailand) Co.,Ltd. | Address: 297/2 Phaholyothin Soi 50 11th-15th Junction Klongthanon Saimai Bangkok 10220</p>
+      </div>
+    </footer>
   </body>
 </html>
