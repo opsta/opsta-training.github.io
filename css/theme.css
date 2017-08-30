@@ -208,7 +208,7 @@
   background: #FFFFFF;
   box-shadow: 8px 13px 20px 5px rgba(0,0,0,0.30);
   width: 100%;
-  min-height: 670px;
+  /*min-height: 670px;*/
   text-align: center;
   display: block;
   transition: 0.4s cubic-bezier(0.18, 0.98, 0.45, 1);

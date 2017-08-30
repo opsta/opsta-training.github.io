@@ -82,10 +82,7 @@
 
 
 .founder-event .profile {
-  float: left;
-  overflow: hidden;
-  height: 156px;
-  margin-right: 2rem;
+  height: 120px;
 }
 
 .founder-event .name {
@@ -160,7 +157,62 @@
 .trainer .info {}
 .trainer .full-modal {}
 
+/* RWD MAX Screen Mobile */
+@media only screen and (max-width: 34em) {
+  .workshop-info {
+    padding: 1rem;
+  }
+  .workshop-info .head > h1 {
+    font-size: 32px;
+  }
+
+  .wrap-event .title {
+    font-size: 22px;
+    margin-bottom: 1rem;
+  }
+}
+
+/* Form Register */
+.header-form {
+  background-image: url(../img/header-form.jpg);
+  background-size: cover;
+  background-position: 100%;
+  padding: 15rem 0;
+  text-align: center;
+  margin-bottom: -10rem;
+}
+
+.form-register {
+  text-align: center;
+  padding: 0;
+  border-top: 10px solid #F60000;
+  background-color: #fff;
+}
+
+.header-form .title {
+  color: #fff;
+  line-height: normal;
+  margin-bottom: 3rem;
+  letter-spacing: 1px;
+}
+
+.header-form .title b {
+  display: block;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.icon-form {
+  width: 80px;
+  margin-bottom: 2rem;
+}
+
+/* RWD MAX Screen Tablet */
 @media only screen and (max-width: 64em) {
+  .workshop-info .head {
+    flex: 1 100%;
+  }
+
   .workshop-info .event-card {
     flex: 1 100%;
     margin-top: 2rem;
@@ -169,10 +221,15 @@
   .workshop-info .founder-event {
     margin-top: 2rem;
     margin-bottom: 0;
+    text-align: center;
+  }
+
+  .sub-title {
+    font-size: 22px;
   }
 }
 
-/* RWD Desktop */
+/* RWD Desktop 1024px */
 @media only screen and (min-width: 64em) {
   .workshop-info .head > h1 {
     font-size: 80px;
@@ -188,6 +245,17 @@
 
   .btn-register  {
     display: inline-block;
+  }
+
+  .content {
+    font-size: 18px;
+  }
+
+  .founder-event .profile {
+    float: left;
+    overflow: hidden;
+    height: 156px;
+    margin-right: 2rem;
   }
 }
 
