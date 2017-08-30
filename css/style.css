@@ -1,11 +1,27 @@
+html {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -moz-font-feature-settings: "liga", "kern";
+  background-color: #000;
+  margin: 0;
+  padding: 0;
+}
+
 body {
-    font-family: "Open Sans", Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-size: 18px;
-    font-weight: 400;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    font-size: 20px;
+    font-weight: normal;
     padding: 0;
     margin: 0;
-    color: #777;
+    color: #4A4A4A;
+    max-width: 1874px;
+    margin: auto;
+    position: relative;
+    overflow-x: hidden;
 }
+
 @media only screen and (min-width: 48em) {
     body {
         font-weight: 300;
@@ -16,7 +32,7 @@ img {
     max-width: 100%;
 }
 a {
-    color: #F17273;
+    color: #F60000;
     text-decoration: none;
     -webkit-transition: color .2s;
     transition: color .2s;
@@ -31,7 +47,7 @@ h4,
 h5,
 h6 {
   font-family: "Prompt", Arial, sans-serif;
-  color: #36404C;
+  color: #252525;
   margin-top: 0;
 }
 figure {
@@ -59,11 +75,13 @@ p {
     display: inline-block;
     margin-right: 15px;
 }
+
 .container {
-    max-width: 1280px;
+    max-width: 1080px;
     margin: auto;
     padding: 0 15px;
 }
+
 .section-main {
     margin-top: 180px;
 }
@@ -126,10 +144,20 @@ p {
         padding: 0 20px;
         width: 25%;
     }
+    .col-4 {
+        float: left;
+        padding: 0 20px;
+        width: 33.333333%;
+    }
     .col-6 {
         float: left;
         padding: 0 20px;
         width: 50%;
+    }
+    .col-8 {
+      float: left;
+      padding: 0 20px;
+      width: 66.666666%;
     }
 }
 @media only screen and (min-width: 48em) {
@@ -491,6 +519,13 @@ p {
         float: right;
     }
 }
+
+@media only screen and (min-width: 1660px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
 .footer-content .privacy a {
     color: #D8D8D8;
     letter-spacing: 2px;
@@ -568,6 +603,10 @@ p {
 
 .text-center {
   text-align: center;
+}
+
+.text-right {
+  text-align: right;
 }
 
 .customers-review {
