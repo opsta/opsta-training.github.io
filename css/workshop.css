@@ -25,6 +25,7 @@
   width: 94%;
   max-width: 1440px;
   margin: -30rem auto 5rem;
+  background-color: #f60000;
 }
 
 .workshop-info {
@@ -132,7 +133,6 @@
   vertical-align: top;
   max-width: 168px;
   text-align: center;
-  margin-top: -1.8rem;
   color: #4A4A4A;
 }
 
@@ -141,7 +141,6 @@
 }
 
 /*===========================================================  Trainer */
-.trainer {}
 .trainer .profile {
   height: 120px;
   margin-bottom: 1rem;
@@ -153,9 +152,6 @@
   color: #252525;
   margin: 0;
 }
-
-.trainer .info {}
-.trainer .full-modal {}
 
 /* RWD MAX Screen Mobile */
 @media only screen and (max-width: 34em) {
@@ -172,7 +168,7 @@
   }
 }
 
-/* Form Register */
+/* ====================================================== Form Register */
 .header-form {
   background-image: url(../img/header-form.jpg);
   background-size: cover;
@@ -189,7 +185,8 @@
   background-color: #fff;
 }
 
-.header-form .title {
+.header-form .title,
+.header-about .title {
   color: #fff;
   line-height: normal;
   margin-bottom: 3rem;
@@ -207,7 +204,64 @@
   margin-bottom: 2rem;
 }
 
+/* =============================================================  About */
+.about-us .title-section-content {
+  margin-top: 0;
+}
+
+.non-list-data {
+  padding: 0;
+  margin-left: 0;
+  list-style-type: none;
+  margin-bottom: 0;
+}
+
+.header-about {
+  background-image: url(../img/header-about.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: #222;
+  padding: 8rem 0;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.header-about .title {
+  display: none;
+}
+
+.present-about {
+  background-image: url(../img/present-about.jpg);
+  background-position: center;
+  height: 600px;
+}
+
+.present-event {
+  background-image: url(../img/photo-event.jpg);
+  background-position: center;
+  height: 300px;
+}
+
+address {
+  font-style: normal;
+}
+
+.about-lecturer {
+  height: 138px;
+  float: left;
+  overflow: hidden;
+  margin: 0 1rem 1rem 0;
+  box-shadow: 8px 13px 20px 5px rgba(0,0,0,0.30);
+}
+
 /* RWD MAX Screen Tablet */
+@media only screen and (max-width: 480px) {
+  .item-card-workshop {
+    margin-bottom: 2rem;
+  }
+}
+
 @media only screen and (max-width: 64em) {
   .workshop-info .head {
     flex: 1 100%;
@@ -226,6 +280,11 @@
 
   .sub-title {
     font-size: 22px;
+  }
+
+  .header-form {
+    padding: 5rem 0;
+    margin-bottom: -5rem;
   }
 }
 
@@ -256,6 +315,22 @@
     overflow: hidden;
     height: 156px;
     margin-right: 2rem;
+  }
+
+  .header-about {
+    padding: 20rem 0;
+    margin-bottom: 4rem;
+  }
+
+  .about-lecturer {
+    float: left;
+    height: 264px;
+    overflow: hidden;
+    margin: 0 4rem 2rem 0;
+  }
+
+  .map-location {
+    margin-top: -1.8rem;
   }
 }
 

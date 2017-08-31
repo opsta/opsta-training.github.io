@@ -4,7 +4,7 @@
 */
 
 .navigation {
-  background-color: #252525;
+  background-color: #1b2126;
   position: absolute;
   top: 0;
   left: 0;
@@ -254,11 +254,13 @@
   text-transform: uppercase;
 }
 /*======================================== Workshop */
-.workshop-list {
+.workshop-list,
+.content-list {
   padding: 20px 0;
 }
 
-.des-workshop {
+.des-workshop,
+.content-des-list {
   font-size: 18px;
   margin-bottom: 0;
   color: #4A4A4A;
@@ -270,7 +272,8 @@
   background-repeat: no-repeat;
   background-position: 100%;
   background-image: url(../img/full-cover.jpg);
-  padding: 12rem 0;
+  background-color: #222;
+  padding: 8rem 0;
   text-align: center;
 }
 
@@ -320,7 +323,7 @@
 
 .title-section-center,
 .section-blog .title {
-  font-size: 38px;
+  font-size: 28px;
   font-weight: 500;
   margin: 2rem 0 1rem 0;
 }
@@ -412,6 +415,10 @@
 }
 
 @media only screen and (min-width: 48em) {
+  .title-section-center {
+    font-size: 38px;
+  }
+
   .object-left {
     position: relative;
     left: -2rem;
@@ -434,6 +441,10 @@
     font-size: 38px;
   }
 
+  .into-service {
+    padding: 12rem 0;
+  }
+
   .into-service .title {
     font-size: 80px;
   }
@@ -442,15 +453,32 @@
   .table-content {
     display: table;
     margin: 5rem 0;
+    width: 100%;
   }
 
-  .workshop-list {
+  .workshop-list,
+  .content-list {
     display: table-cell;
     width: 50%;
     vertical-align: middle;
   }
 
-  .des-workshop {
+  .des-workshop,
+  .content-des-list {
     padding-right: 5rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .nav > span {
+    display: none;
+  }
+
+  .text-right {
+    text-align: left;
+  }
+
+  [class*="col-"] + [class*="col-"] {
+    margin-top: 2rem;
   }
 }
