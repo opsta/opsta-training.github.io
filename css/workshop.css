@@ -1,0 +1,346 @@
+/*====================== Title Article */
+.title-content {
+  font-size: 28px;
+  text-transform: uppercase;
+  margin-bottom: .25rem;
+}
+
+.bg-cover {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+
+.cover-service {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-image: url(../img/full-cover.jpg);
+  padding: 20rem 0;
+  text-align: center;
+}
+
+.item-card-workshop {
+  background-image: url(../img/item-card.svg);
+  width: 94%;
+  max-width: 1440px;
+  margin: -30rem auto 5rem;
+  background-color: #f60000;
+}
+
+.workshop-info {
+  padding: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+
+.workshop-info .head {
+  -webkit-box-flex: 4;
+  -ms-flex: 3 0px;
+  flex: 3 0px;
+}
+
+.workshop-info .head > h1 {
+  color: #fff;
+  font-size: 40px;
+  line-height: 40px;
+  margin-bottom: 2rem;
+}
+
+.workshop-info .head > h1:after {
+  display: block;
+  content: "";
+  width: 120px;
+  height: 16px;
+  background-color: #000;
+  margin-top: 8px;
+}
+
+.workshop-info .event-card {
+  -webkit-box-ordinal-group: 3;
+  -ms-flex-order: 2;
+  order: 2;
+  -webkit-box-flex: 2;
+-ms-flex: 2 0px;
+  flex: 2 0px;
+}
+
+.workshop-info .founder-event {
+  -webkit-box-ordinal-group: 4;
+  -ms-flex-order: 3;
+  order: 3;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 100%;
+  flex: 1 100%;
+  margin-top: -185px;
+  color: #fff;
+}
+
+
+.founder-event .profile {
+  height: 120px;
+}
+
+.founder-event .name {
+  font-size: 38px;
+}
+
+
+/*============================================================= Article */
+.content {
+  font-size: 16px;
+}
+
+.section-content {
+  padding-top: 3rem;
+}
+
+.section-content .title-content {
+  margin-bottom: 1rem;
+}
+
+.section-content .title-content:after {
+  margin-top: 4px;
+}
+
+.keyword {
+  color: #f60000;
+}
+
+.icon-event {
+  display: inline-block;
+}
+
+.event-detail span.fa {
+  color: #252525 !important;
+}
+
+.event-detail .fix-content {
+  max-width: 420px;
+}
+
+.event-info {
+  position: relative;
+}
+
+.map-location {
+  display: inline-block;
+  vertical-align: top;
+  max-width: 168px;
+  text-align: center;
+  color: #4A4A4A;
+}
+
+.map-location > img {
+  margin-bottom: 1rem;
+}
+
+/*===========================================================  Trainer */
+.trainer .profile {
+  height: 120px;
+  margin-bottom: 1rem;
+}
+
+.trainer .content-type {
+  font-weight: bold;
+  font-size: 18px;
+  color: #252525;
+  margin: 0;
+}
+
+/* RWD MAX Screen Mobile */
+@media only screen and (max-width: 34em) {
+  .workshop-info {
+    padding: 1rem;
+  }
+  .workshop-info .head > h1 {
+    font-size: 32px;
+  }
+
+  .wrap-event .title {
+    font-size: 22px;
+    margin-bottom: 1rem;
+  }
+}
+
+/* ====================================================== Form Register */
+.header-form {
+  background-image: url(../img/header-form.jpg);
+  background-size: cover;
+  background-position: 100%;
+  padding: 15rem 0;
+  text-align: center;
+  margin-bottom: -10rem;
+}
+
+.form-register {
+  text-align: center;
+  padding: 0;
+  border-top: 10px solid #F60000;
+  background-color: #fff;
+}
+
+.header-form .title,
+.header-about .title {
+  color: #fff;
+  line-height: normal;
+  margin-bottom: 3rem;
+  letter-spacing: 1px;
+}
+
+.header-form .title b {
+  display: block;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.icon-form {
+  width: 80px;
+  margin-bottom: 2rem;
+}
+
+/* =============================================================  About */
+.about-us .title-section-content {
+  margin-top: 0;
+}
+
+.non-list-data {
+  padding: 0;
+  margin-left: 0;
+  list-style-type: none;
+  margin-bottom: 0;
+}
+
+.header-about {
+  background-image: url(../img/header-about-1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: #222;
+  padding: 8rem 0;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.header-about .title {
+  display: none;
+}
+
+.present-about {
+  background-image: url(../img/present-about.jpg);
+  background-position: center;
+  height: 600px;
+}
+
+.present-event {
+  background-image: url(../img/photo-event.jpg);
+  background-position: center;
+  height: 300px;
+}
+
+address {
+  font-style: normal;
+}
+
+.about-lecturer {
+  height: 138px;
+  float: left;
+  overflow: hidden;
+  margin: 0 1rem 1rem 0;
+  box-shadow: 8px 13px 20px 5px rgba(0,0,0,0.30);
+}
+
+/* RWD MAX Screen Tablet */
+@media only screen and (max-width: 480px) {
+  .item-card-workshop {
+    margin-bottom: 2rem;
+  }
+}
+
+@media only screen and (max-width: 64em) {
+  .workshop-info .head {
+    flex: 1 100%;
+  }
+
+  .workshop-info .event-card {
+    flex: 1 100%;
+    margin-top: 2rem;
+  }
+
+  .workshop-info .founder-event {
+    margin-top: 2rem;
+    margin-bottom: 0;
+    text-align: center;
+  }
+
+  .sub-title {
+    font-size: 22px;
+  }
+
+  .header-form {
+    padding: 5rem 0;
+    margin-bottom: -5rem;
+  }
+}
+
+/* RWD Desktop 1024px */
+@media only screen and (min-width: 64em) {
+  .workshop-info .head > h1 {
+    font-size: 80px;
+    line-height: 80px;
+    margin-top: 3rem;
+  }
+
+  .register {
+    position: absolute;
+    top: 20px;
+    right: 0;
+  }
+
+  .btn-register  {
+    display: inline-block;
+  }
+
+  .content {
+    font-size: 18px;
+  }
+
+  .founder-event .profile {
+    float: left;
+    overflow: hidden;
+    height: 156px;
+    margin-right: 2rem;
+  }
+
+  .header-about {
+    padding: 20rem 0;
+    margin-bottom: 4rem;
+  }
+
+  .about-lecturer {
+    float: left;
+    height: 264px;
+    overflow: hidden;
+    margin: 0 4rem 2rem 0;
+  }
+
+  .map-location {
+    margin-top: -1.8rem;
+  }
+}
+
+/* RWD Large Screen */
+@media only screen and (min-width: 1660px) {
+  .workshop-info {
+    padding: 5rem;
+  }
+
+  .cover-service {
+    padding: 20rem 0;
+  }
+}

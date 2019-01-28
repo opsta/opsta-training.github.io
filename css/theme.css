@@ -1,0 +1,484 @@
+/*============================================ Header */
+/*
+  transition: 0.4s cubic-bezier(0.18, 0.98, 0.45, 1);
+*/
+
+.navigation {
+  background-color: #1b2126;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 10px 20px;
+}
+
+.navigation .logo {
+  height: 34px;
+  display: inline-block;
+  margin-top: 4px;
+}
+
+.navigation .nav {
+  float: right;
+  overflow: hidden;
+}
+
+.nav > a {
+  display: inline-block;
+  color: #fff;
+  font-size: 16px;
+  margin-left: 16px;
+  line-height: 42px;
+  transition: 0.4s cubic-bezier(0.18, 0.98, 0.45, 1);
+}
+
+.nav > span {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.nav > span img {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 8px;
+  height: 24px;
+  transition: 0.4s cubic-bezier(0.18, 0.98, 0.45, 1);
+}
+
+.data-link {
+  transition: 0.4s cubic-bezier(0.18, 0.98, 0.45, 1);
+}
+
+.nav a:hover {
+  opacity: .7;
+}
+
+/*============================================ Title */
+.title-section-content {
+  font-size: 28px;
+  margin: 18px 0;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.title-section-content:after,
+ .section-content .title-content:after {
+  display: block;
+  width: 40px;
+  height: 6px;
+  background-color: #F60000;
+  content: "";
+  margin: 16px 0 0;
+  line-height: 1;
+}
+
+.title-label {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #F60000;
+  letter-spacing: 2px;
+}
+
+.title-label > span {
+  display: inline-block;
+  margin-left: 16px;
+  color: #9B9B9B;
+}
+
+/*========================================= Paragraph */
+.content-type {
+  font-family: "Prompt", Arial, sans-serif;
+}
+
+/*========================================= Button */
+.btn-link {
+  background: #F60000;
+  font-family: "Prompt", Arial, sans-serif;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+  line-height: 50px;
+  line-height: 50px;
+  padding: 0 16px;
+  margin-top: 20px;
+  border: 1px solid #F60000;
+  transition: 0.4s cubic-bezier(0.18, 0.98, 0.45, 1);
+}
+
+.btn-link:hover {
+  background: #fff;
+  color: #F60000;
+}
+
+.btn-course {
+  font-family: 'Roboto', sans-serif;
+  display: inline-block;
+  font-size: 32px;
+  font-weight: bold;
+  color: #F60000;
+  letter-spacing: 1px;
+  line-height: 65px;
+  padding: 0 24px;
+  margin-top: 20px;
+  border: 1px solid #F60000;
+  transition: 0.4s cubic-bezier(0.18, 0.98, 0.45, 1);
+}
+
+.btn-link-blog {
+  font-family: "Prompt", Arial, sans-serif;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 50px;
+  line-height: 50px;
+  padding: 0 16px;
+  margin-top: 20px;
+  border: 1px solid #F60000;
+  transition: 0.4s cubic-bezier(0.18, 0.98, 0.45, 1);
+  background: #fff;
+  color: #F60000;
+}
+
+.btn-link-blog:hover {
+  background: #F60000;
+  color: #FFFFFF;
+}
+
+.btn-register {
+  background: #F60000;
+  font-family: "Prompt", Arial, sans-serif;
+  display: block;
+  font-size: 18px;
+  font-weight: 500;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+  line-height: 65px;
+  line-height: 65px;
+  padding: 0 38px;
+  border: 1px solid #F60000;
+  transition: 0.4s cubic-bezier(0.18, 0.98, 0.45, 1);
+  text-align: center;
+}
+
+.btn-register:hover {
+  background: #fff;
+  color: #F60000;
+}
+
+/*============================================ Section subscribe */
+.section-subscribe {
+  background-color: #F7F7F7;
+  padding: 5rem 20px;
+}
+
+.section-subscribe .des {
+  font-size: 18px;
+}
+
+.section-subscribe .title {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.section-subscribe .email {
+  background-color: #fff;
+  border: 1px solid #E4E4E4;
+  line-height: 36px;
+  padding: 8px 16px;
+  font-size: 18px;
+  box-sizing: border-box;
+}
+
+#mc_embed_signup {
+  margin-bottom: 2rem;
+}
+
+#mc-embedded-subscribe {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+}
+/*============================================ box */
+.box-event {
+  background: #FFFFFF;
+  box-shadow: 8px 13px 20px 5px rgba(0,0,0,0.30);
+  width: 100%;
+  /*min-height: 670px;*/
+  text-align: center;
+  display: block;
+  transition: 0.4s cubic-bezier(0.18, 0.98, 0.45, 1);
+}
+
+.box-event:hover {
+  box-shadow: 8px 13px 20px 5px rgba(0,0,0,0.4);
+}
+
+.wrap-event {
+  padding: 8% 20px;
+}
+
+.wrap-event img {
+  max-width: 248px;
+}
+
+.wrap-event .title,
+.sub-title {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.wrap-event .title {
+  margin: 2rem 0 6rem;
+}
+
+.wrap-event .date-time {
+  font-size: 34px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  color: #252525;
+}
+
+.wrap-event .label-course {
+  color: #252525;
+  margin: 0;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+/*======================================== Workshop */
+.workshop-list,
+.content-list {
+  padding: 20px 0;
+}
+
+.des-workshop,
+.content-des-list {
+  font-size: 18px;
+  margin-bottom: 0;
+  color: #4A4A4A;
+}
+
+/*============================================ Hero */
+.into-service {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-image: url(../img/full-cover.jpg);
+  background-color: #222;
+  padding: 8rem 0;
+  text-align: center;
+}
+
+.into-service .title {
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin: 4rem 0 3rem;
+}
+
+.into-service .title:after {
+  display: block;
+  width: 80px;
+  height: 16px;
+  background-color: #F60000;
+  content: "";
+  margin: 8px auto 0;
+}
+
+.des-into {
+  color: #fff;
+  max-width: 580px;
+  line-height: 1.6;
+  padding: 2rem 20px;
+  margin: auto;
+}
+
+/* =================================== Card */
+/* =================================== Gutter */
+.gutter-content {
+  background-color: #ddd;
+  border: none;
+  width: 1px;
+  height: 120px;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+/* =================================== Blog */
+.section-blog {
+  max-width: 880px;
+  margin: auto;
+  padding-bottom: 2rem;
+}
+
+.title-section-center,
+.section-blog .title {
+  font-size: 28px;
+  font-weight: 500;
+  margin: 2rem 0 1rem 0;
+}
+
+.title-section-center:after,
+.section-blog .title:after {
+  display: block;
+  width: 60px;
+  height: 4px;
+  background-color: #F60000;
+  content: "";
+  margin: 8px auto 0;
+}
+
+.title-article {
+  font-size: 18px;
+  margin-bottom: 1rem;
+  min-height: 56px;
+  transition: 0.4s cubic-bezier(0.18, 0.98, 0.45, 1);
+}
+
+.article:hover .title-article {
+  color: #F60000;
+}
+
+/*============================== section gallery */
+.section-gallery .grid {
+  margin: 0;
+}
+
+.section-gallery .col-4 {
+  padding: 0;
+}
+
+/*============================== Footer */
+.footer {
+  background-color: #252525;
+  padding: 4rem 20px 3rem;
+  font-size: 16px;
+  color: #ddd;
+}
+
+.footer .title {
+  font-size: 18px;
+  color: #9B9B9B;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: underline;
+  transition: 0.4s cubic-bezier(0.18, 0.98, 0.45, 1);
+}
+
+.footer a:hover {
+  opacity: .7;
+}
+
+.company-link p {
+  margin-bottom: 0;
+}
+
+.company-link a {
+  text-decoration: none;
+}
+
+.company-link a:hover {
+  text-decoration: underline;
+}
+
+.footer .social {
+  display: inline-block;
+  margin-left: 16px;
+}
+
+.icon-social {
+  font-size: 20px;
+}
+
+.social a {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.copywriter {
+  font-size: 14px;
+}
+
+@media only screen and (min-width: 48em) {
+  .title-section-center {
+    font-size: 38px;
+  }
+
+  .object-left {
+    position: relative;
+    left: -2rem;
+  }
+
+  .object-right {
+    position: relative;
+    right: -2rem;
+  }
+
+  .workshop-list.workshop-wrap {
+    padding-left: 5rem;
+  }
+
+  .object-left .des-workshop {
+    padding-right: 0;
+  }
+
+  .title-section-content {
+    font-size: 38px;
+  }
+
+  .into-service {
+    padding: 12rem 0;
+  }
+
+  .into-service .title {
+    font-size: 80px;
+  }
+
+  /* Workshop */
+  .table-content {
+    display: table;
+    margin: 5rem 0;
+    width: 100%;
+  }
+
+  .workshop-list,
+  .content-list {
+    display: table-cell;
+    width: 50%;
+    vertical-align: middle;
+  }
+
+  .des-workshop,
+  .content-des-list {
+    padding-right: 5rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .nav > span {
+    display: none;
+  }
+
+  .text-right {
+    text-align: left;
+  }
+
+  [class*="col-"] + [class*="col-"] {
+    margin-top: 2rem;
+  }
+}
